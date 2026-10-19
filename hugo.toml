@@ -1,0 +1,24 @@
+baseURL = "https://github.com/dacvurauma/dacvurauma-blog"
+locale = "en-us"
+title = "blog của dacvurauma"
+theme = "PaperMod"
+
+[params]
+author = "dacvurauma"
+
+[[menus.main]]
+name = "posts"
+url = "posts/"
+weight = 40
+
+[[menus.main]]
+name = "about"
+url = "about/"
+weight = 10
+
+[params.homeInfoParams]
+Title = "chào bạn nhe =))"
+Content = "tui viết blog để mọi người biết mình còn sống ^^"
+
+[params.label]
+text = "blog của dacvurauma"
